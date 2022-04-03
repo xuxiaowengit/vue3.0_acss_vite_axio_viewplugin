@@ -1,0 +1,3 @@
+dist
+test/a.js
+node_modules/*

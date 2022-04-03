@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.login-wrapper {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+}
+#loginForm > div > input {
+  font-size: 24px;
+  line-height: 50px;
+  padding: 5px;
+}
+.login {
+  background: rgba(8, 125, 137, 0.7);
+}
+.slide-img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.form-group {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 30px;
+  /* max-width: 300px; */
+}
+.btn-mybg {
+  color: #fff;
+  background-color: #56e6b6;
+  border: none;
+}
+.flexd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  display: -webkit-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.form-check > label {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+#loginForm > div > label {
+  /* line-height: 50px; */
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  white-space: nowrap;
+}
+.btn-mybg:hover {
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+#remember-me {
+  padding: 0;
+  margin: 0;
+}
+#loginfm {
+  position: relative;
+  padding: 50px 100px;
+  /* width: 40rem; */
+  height: 320px;
+  border-radius: 1%;
+  max-width: 500px;
+}
+.card-body {
+  /* width: 35rem; */
+  max-width: 99%;
+}
+#login {
+  width: 70%;
+  margin: 0 auto;
+  bottom: 0;
+}
+.card-header {
+  /* width: 35rem; */
+  line-height: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  max-width: 450px;
+}
+.card-header > h4 {
+  line-height: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+}
+.btnDiv {
+  position: absolute;
+  bottom: 15px;
+}
